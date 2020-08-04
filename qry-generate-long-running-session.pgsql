@@ -7,4 +7,6 @@ CREATE TABLE performance_test (
 INSERT INTO performance_test (location)
 SELECT 'Bengaluru, India' FROM generate_series(1,500000000);
 
+
+
 SELECT * FROM performance_test
